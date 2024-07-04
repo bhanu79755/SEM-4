@@ -23,7 +23,7 @@ int prim(int[10][10],int n,int s)
         sum=sum+d[u];
         printf("\n%d->%d sum=%d",ver[u],u,sum);
         for(j=1;j<=n;j++)
-        if v[i]==0&& c[u][j]<d[j]
+        if (v[i]==0&& c[u][j]<d[j])
         {
             d[j]=c[u][j];
             ver[j]=0;
