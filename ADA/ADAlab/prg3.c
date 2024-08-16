@@ -11,7 +11,7 @@ void sort(int a[][10],int id[],int n)
             temp[++k]=i;
             for(j=1;j<=n;j++)
             {
-                if(a[i][j]==1&&id[j]!=-1)
+                if(a[i][j]==1 && id[j]!=-1)
                 id[j]--;
             }
             i=0;
@@ -21,11 +21,11 @@ void sort(int a[][10],int id[],int n)
 void main()
 {
     int a[10][10],id[10],n,i,j;
-    printf("\nEnter the N Value");
+    printf("\nEnter the N Value:");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     id[i]=0;
-    printf("\n Enter the graph data:\n");
+    printf("\n Enter the graph data=\n");
     for(i=1;i<=n;i++)
     for(j=1;j<=n;j++)
     {
